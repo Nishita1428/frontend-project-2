@@ -1,0 +1,63 @@
+.quiz_box {
+    display: flex;
+    flex-direction: column;
+}
+/* Small screens (e.g., mobile phones) */
+@media screen and (max-width: 768px) {
+    .quiz_box .que_text {
+        font-size: 18px;
+    }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        
+    }
+    /* Adjust styles for small screens */
+}
+
+/* Medium screens (e.g., tablets) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .info_box, .quiz_box, .result_box {
+        width: 80%; /* Adjust the width of the boxes */
+        max-width: 600px; /* Limit the maximum width */
+    }
+
+    .quiz_box .que_text {
+        font-size: 20px; /* Increase font size for questions */
+    }
+
+    .quiz_box .option_list .option {
+        font-size: 16px; /* Increase font size for options */
+    }
+
+    .footer button {
+        font-size: 16px; /* Adjust button font size */
+        padding: 0 15px; /* Adjust button padding */
+    }
+    /* Adjust styles for medium screens */
+}
+
+/* Large screens (e.g., desktops) */
+@media screen and (min-width: 1025px) {
+    .info_box, .quiz_box, .result_box {
+        width: 100%; /* Utilize full width */
+        max-width: 1024px; /* Limit the maximum width for better readability */
+        margin: 0 auto; /* Center the boxes horizontally */
+    }
+
+    .quiz_box .que_text {
+        font-size: 24px; /* Increase font size for questions */
+    }
+
+    .quiz_box .option_list .option {
+        font-size: 18px; /* Increase font size for options */
+    }
+
+    .footer button {
+        font-size: 18px; /* Adjust button font size */
+        padding: 0 20px; /* Adjust button padding */
+    }
+    /* Adjust styles for large screens */
+
+}

@@ -1,0 +1,48 @@
+/* CSS for small screens (up to 600px) */
+*{
+    background-size:100%
+}
+@media screen and (max-width: 600px) {
+    body {
+        background-size: 100%;
+    }
+
+    .main {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .register {
+        width: 100%;
+    }
+
+    .option_list .option {
+        font-size: 14px;
+    }
+
+    .result_box {
+        width: 90%;
+    }
+
+    #next {
+        margin-left: 20px;
+    }
+}
+
+/* CSS for medium screens (601px to 1024px) */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+    .main {
+        width: 70%;
+    }
+}
+
+/* CSS for large screens (1025px and above) */
+@media screen and (min-width: 1025px) {
+    .main {
+        width: 50%;
+    }
+
+    #next {
+        margin-left: 260px;
+    }
+}
