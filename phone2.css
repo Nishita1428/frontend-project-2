@@ -1,8 +1,37 @@
-.quiz_box {
+/* .quiz_box {
     display: flex;
     flex-direction: column;
-}
+} */
 /* Small screens (e.g., mobile phones) */
+@media screen and (max-width: 500px){
+    
+
+        img {
+            max-width: 70%;
+            height: auto;
+        
+    }
+    .info_box, .quiz_box, .result_box {
+        width: 30%; /* Adjust the width of the boxes */
+        max-width: 50px; /* Limit the maximum width */
+    }
+
+    .quiz_box .que_text {
+        font-size: 10px; /* Increase font size for questions */
+    }
+
+    .quiz_box .option_list .option {
+        font-size: 8px; /* Increase font size for options */
+    }
+
+    .footer button {
+        font-size: 8px; /* Adjust button font size */
+        padding: 0 15px; /* Adjust button padding */
+    }
+}
+
+
+
 @media screen and (max-width: 768px) {
     .quiz_box .que_text {
         font-size: 18px;
