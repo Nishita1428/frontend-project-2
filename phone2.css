@@ -1,32 +1,29 @@
-/* .quiz_box {
-    display: flex;
-    flex-direction: column;
-} */
-/* Small screens (e.g., mobile phones) */
-@media screen and (max-width: 500px){
-    
 
-        img {
-            max-width: 70%;
-            height: auto;
-        
-    }
-    .info_box, .quiz_box, .result_box {
-        width: 30%; /* Adjust the width of the boxes */
-        max-width: 50px; /* Limit the maximum width */
+@media screen and (max-width: 545px){
+    
+    /* img {
+        max-width: 10%;
+        height: auto;
+    
+}
+         */
+
+        .info_box, .quiz_box, .result_box {
+        width: 400px; 
+        /* max-width: 10px; */
     }
 
     .quiz_box .que_text {
-        font-size: 10px; /* Increase font size for questions */
+        font-size: 5px; 
     }
 
     .quiz_box .option_list .option {
-        font-size: 8px; /* Increase font size for options */
+        font-size: 8px; 
     }
 
     .footer button {
-        font-size: 8px; /* Adjust button font size */
-        padding: 0 15px; /* Adjust button padding */
+        font-size: 4px; 
+        padding: 0 15px;
     }
 }
 
@@ -42,51 +39,51 @@
             height: auto;
         
     }
-    /* Adjust styles for small screens */
+    
 }
 
-/* Medium screens (e.g., tablets) */
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .info_box, .quiz_box, .result_box {
-        width: 80%; /* Adjust the width of the boxes */
-        max-width: 600px; /* Limit the maximum width */
+        width: 80%; 
+        max-width: 600px; 
     }
 
     .quiz_box .que_text {
-        font-size: 20px; /* Increase font size for questions */
+        font-size: 20px; 
     }
 
     .quiz_box .option_list .option {
-        font-size: 16px; /* Increase font size for options */
+        font-size: 16px; 
     }
 
     .footer button {
-        font-size: 16px; /* Adjust button font size */
-        padding: 0 15px; /* Adjust button padding */
+        font-size: 16px; 
+        padding: 0 15px; 
     }
-    /* Adjust styles for medium screens */
+    
 }
 
-/* Large screens (e.g., desktops) */
+
 @media screen and (min-width: 1025px) {
     .info_box, .quiz_box, .result_box {
-        width: 100%; /* Utilize full width */
-        max-width: 1024px; /* Limit the maximum width for better readability */
-        margin: 0 auto; /* Center the boxes horizontally */
+        width: 100%; 
+        max-width: 1024px;
+        margin: 0 auto; 
     }
 
     .quiz_box .que_text {
-        font-size: 24px; /* Increase font size for questions */
+        font-size: 24px;
     }
 
     .quiz_box .option_list .option {
-        font-size: 18px; /* Increase font size for options */
+        font-size: 18px; 
     }
 
     .footer button {
-        font-size: 18px; /* Adjust button font size */
-        padding: 0 20px; /* Adjust button padding */
+        font-size: 18px; 
+        padding: 0 20px;
     }
-    /* Adjust styles for large screens */
+    
 
 }
